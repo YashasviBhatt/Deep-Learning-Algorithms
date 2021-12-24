@@ -6,24 +6,22 @@ Follow these steps to make the clean execution of Program.
 5. The structure of the directory should resemble this.
 ```
 |-- 02_Convolutional_Neural_Network
-    |-- Cat_Dog_Classifier
-        |-- README.md
-        |-- data_preparation.ipynb    
-        |-- cat_dog_classification.ipynb
-        |-- train
-            |-- cat
-                |-- cat.0.jpg
-                |-- cat.1.jpg
-                |-- ...
-            |-- dog
-                |-- dog.0.jpg
-                |-- dog.1.jpg
-                |-- ...
-        |-- test
-            |-- 1.jpg
-            |-- 2.jpg
+    |-- README.md
+    |-- data_preparation.ipynb    
+    |-- cat_dog_classification.ipynb
+    |-- train
+        |-- cat
+            |-- cat.0.jpg
+            |-- cat.1.jpg
             |-- ...
-    |-- ...
+        |-- dog
+            |-- dog.0.jpg
+            |-- dog.1.jpg
+            |-- ...
+    |-- test
+        |-- 1.jpg
+        |-- 2.jpg
+        |-- ...
 ```
 6. Once you setup everything, run the `data_preparation.ipynb` notebook to pre-process images and make them ready for modelling.
 7. After, run the `cat_dog_classification.ipynb` notebook to train the model.
