@@ -22,8 +22,6 @@ Follow these steps to make the clean execution of Program.
         |-- 1.jpg
         |-- 2.jpg
         |-- ...
-    |-- bin
-        |-- ...
 ```
 6. Once you setup everything, run the `data_preparation.ipynb` notebook to pre-process images and make them ready for modelling.
 7. After, run the `cat_dog_classification.ipynb` notebook to train the model.
